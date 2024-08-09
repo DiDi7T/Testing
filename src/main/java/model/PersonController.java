@@ -7,8 +7,8 @@ public class PersonController {
     public PersonController(){
         people=new ArrayList<>();
     }
-    public void addPerson(String name, int age, String cc){
-        Person person =new Person(name,age,cc);
+    public void addPerson(String name, int age, String cc, double weight){
+        Person person =new Person(name,age,cc,weight);
         people.add(person);
     }
     public ArrayList<Person> getPeople(){
